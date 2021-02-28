@@ -3,5 +3,6 @@ cls
 :loop
 echo Press any key to clear clipboard
 pause >nul
-echo. | clip
+::You can use "echo. | clip" as well
+echo off | clip
 goto loop
